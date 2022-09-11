@@ -56,15 +56,39 @@
 		52FD2C7828CE68B8002CFFA2 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				52FD2C8F28CE69A0002CFFA2 /* Model */,
+				52FD2C8E28CE699B002CFFA2 /* View */,
+				52FD2C8D28CE6993002CFFA2 /* Controller */,
 				52FD2C7928CE68B8002CFFA2 /* AppDelegate.swift */,
 				52FD2C7B28CE68B8002CFFA2 /* SceneDelegate.swift */,
-				52FD2C7D28CE68B8002CFFA2 /* ViewController.swift */,
-				52FD2C7F28CE68B8002CFFA2 /* Main.storyboard */,
 				52FD2C8228CE68B9002CFFA2 /* Assets.xcassets */,
 				52FD2C8428CE68B9002CFFA2 /* LaunchScreen.storyboard */,
 				52FD2C8728CE68B9002CFFA2 /* Info.plist */,
 			);
 			path = Flix;
+			sourceTree = "<group>";
+		};
+		52FD2C8D28CE6993002CFFA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52FD2C7D28CE68B8002CFFA2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52FD2C8E28CE699B002CFFA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52FD2C7F28CE68B8002CFFA2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52FD2C8F28CE69A0002CFFA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
