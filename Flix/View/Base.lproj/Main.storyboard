@@ -31,20 +31,21 @@
                                                     <rect key="frame" x="0.0" y="11" width="105" height="128"/>
                                                     <color key="backgroundColor" name="AccentColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="105" id="tWE-nz-Z05"/>
+                                                        <constraint firstAttribute="height" constant="128" id="323-Wp-uE5"/>
+                                                        <constraint firstAttribute="width" constant="105" id="cPc-L2-XNI"/>
                                                     </constraints>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zbs-Kp-FmI">
                                                     <rect key="frame" x="105" y="0.0" width="285" height="150"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etd-xT-tfj">
-                                                            <rect key="frame" x="20" y="20" width="237" height="28.666666666666671"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etd-xT-tfj">
+                                                            <rect key="frame" x="20.000000000000004" y="20" width="61.333333333333343" height="76.666666666666671"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AK-wB-GFd">
-                                                            <rect key="frame" x="20" y="71.666666666666686" width="237" height="20.333333333333329"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AK-wB-GFd">
+                                                            <rect key="frame" x="20.000000000000004" y="119.66666666666667" width="61.333333333333343" height="20.333333333333329"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -54,7 +55,7 @@
                                                     <constraints>
                                                         <constraint firstItem="1AK-wB-GFd" firstAttribute="top" secondItem="etd-xT-tfj" secondAttribute="bottom" constant="23" id="4wm-oF-ENS"/>
                                                         <constraint firstItem="etd-xT-tfj" firstAttribute="trailing" secondItem="1AK-wB-GFd" secondAttribute="trailing" id="BB4-yf-K44"/>
-                                                        <constraint firstAttribute="trailing" secondItem="etd-xT-tfj" secondAttribute="trailing" constant="28" id="GQi-Qg-WJ7"/>
+                                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="etd-xT-tfj" secondAttribute="trailing" constant="20" symbolic="YES" id="GQi-Qg-WJ7"/>
                                                         <constraint firstItem="etd-xT-tfj" firstAttribute="leading" secondItem="1AK-wB-GFd" secondAttribute="leading" id="T4Z-zw-JQZ"/>
                                                         <constraint firstAttribute="bottom" secondItem="1AK-wB-GFd" secondAttribute="bottom" constant="10" id="ezM-pI-SAc"/>
                                                         <constraint firstItem="etd-xT-tfj" firstAttribute="leading" secondItem="Zbs-Kp-FmI" secondAttribute="leading" constant="20" id="s4N-ut-e2J"/>
@@ -64,7 +65,6 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Zbs-Kp-FmI" firstAttribute="top" secondItem="5kt-tX-H1N" secondAttribute="top" id="8Vy-zI-MOB"/>
-                                                <constraint firstItem="m2h-Jy-slT" firstAttribute="leading" secondItem="5kt-tX-H1N" secondAttribute="leading" constant="10" id="D9v-sI-B1U"/>
                                                 <constraint firstItem="m2h-Jy-slT" firstAttribute="top" secondItem="5kt-tX-H1N" secondAttribute="top" constant="11" id="K4a-hM-NTm"/>
                                             </constraints>
                                         </stackView>

@@ -52,7 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
       
         cell.titleLabel.text = title
         cell.synopsisLabel.text = synopsis
-        cell.posterView.af_setImage(withURL: posterURL!)
+        cell.posterView.af.setImage(withURL: posterURL!)
         
         return cell
     }
