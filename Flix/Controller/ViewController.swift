@@ -64,7 +64,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        <#code#>
+        let cell = sender as! UITableViewCell
     }
 
 
